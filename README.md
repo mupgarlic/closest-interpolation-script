@@ -11,3 +11,4 @@ for material in bpy.data.materials:
         if target_node:
             target_node.interpolation = 'Closest'
 ```
+Copy this script in the "Text Editor" and run it (Alt + P over the editor) to instantly set interpolation to 'Closest'. I made this to quickly fix the blurry effect on the textures of the 3D models you import from 'Mineways'. :D
